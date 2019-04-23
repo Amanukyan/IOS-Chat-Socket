@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA004398226E620C00398D06 /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA004397226E620C00398D06 /* UIView+Animation.swift */; };
+		FA0A6FC6225E6759005CCA45 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A6FC5225E6759005CCA45 /* CustomTextField.swift */; };
+		FA0A6FC8225E67A6005CCA45 /* UIColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A6FC7225E67A6005CCA45 /* UIColorExtention.swift */; };
+		FA0A6FEC225E67EA005CCA45 /* VisbyRoundCF-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FCB225E67EA005CCA45 /* VisbyRoundCF-Bold.woff2 */; };
+		FA0A6FED225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FCC225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.woff2 */; };
+		FA0A6FEE225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FCD225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.woff2 */; };
+		FA0A6FEF225E67EA005CCA45 /* VisbyRoundCF-Medium.eot in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FCE225E67EA005CCA45 /* VisbyRoundCF-Medium.eot */; };
+		FA0A6FF0225E67EA005CCA45 /* VisbyRoundCF-Heavy.eot in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FCF225E67EA005CCA45 /* VisbyRoundCF-Heavy.eot */; };
+		FA0A6FF1225E67EA005CCA45 /* VisbyRoundCF-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FD0225E67EA005CCA45 /* VisbyRoundCF-Regular.woff2 */; };
+		FA0A6FF2225E67EA005CCA45 /* VisbyRoundCF-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FD1225E67EA005CCA45 /* VisbyRoundCF-Light.woff */; };
+		FA0A6FF3225E67EA005CCA45 /* VisbyRoundCF-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FD2225E67EA005CCA45 /* VisbyRoundCF-Medium.woff */; };
+		FA0A6FF4225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.woff in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FD3225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.woff */; };
+		FA0A6FF5225E67EA005CCA45 /* VisbyRoundCF-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FD4225E67EA005CCA45 /* VisbyRoundCF-Light.eot */; };
+		FA0A6FF6225E67EA005CCA45 /* VisbyRoundCF-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FD5225E67EA005CCA45 /* VisbyRoundCF-Medium.woff2 */; };
+		FA0A6FF7225E67EA005CCA45 /* VisbyRoundCF-Heavy.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FD6225E67EA005CCA45 /* VisbyRoundCF-Heavy.woff2 */; };
+		FA0A6FF8225E67EA005CCA45 /* VisbyRoundCF-DemiBold.eot in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FD7225E67EA005CCA45 /* VisbyRoundCF-DemiBold.eot */; };
+		FA0A6FF9225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FD8225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.woff */; };
+		FA0A6FFA225E67EA005CCA45 /* VisbyRoundCF-Heavy.woff in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FD9225E67EA005CCA45 /* VisbyRoundCF-Heavy.woff */; };
+		FA0A6FFB225E67EA005CCA45 /* VisbyRoundCF-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FDA225E67EA005CCA45 /* VisbyRoundCF-Regular.woff */; };
+		FA0A6FFC225E67EA005CCA45 /* VisbyRoundCF-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FDB225E67EA005CCA45 /* VisbyRoundCF-Regular.eot */; };
+		FA0A6FFD225E67EA005CCA45 /* VisbyRoundCF-DemiBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FDC225E67EA005CCA45 /* VisbyRoundCF-DemiBold.woff2 */; };
+		FA0A6FFE225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.eot in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FDD225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.eot */; };
+		FA0A6FFF225E67EA005CCA45 /* VisbyRoundCF-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FDE225E67EA005CCA45 /* VisbyRoundCF-Bold.woff */; };
+		FA0A7000225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.eot in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FDF225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.eot */; };
+		FA0A7001225E67EA005CCA45 /* VisbyRoundCF-DemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FE0225E67EA005CCA45 /* VisbyRoundCF-DemiBold.woff */; };
+		FA0A7002225E67EA005CCA45 /* VisbyRoundCF-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FE1225E67EA005CCA45 /* VisbyRoundCF-Bold.eot */; };
+		FA0A7003225E67EA005CCA45 /* VisbyRoundCF-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FE2225E67EA005CCA45 /* VisbyRoundCF-Light.woff2 */; };
+		FA0A7004225E67EA005CCA45 /* VisbyRoundCF-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FE4225E67EA005CCA45 /* VisbyRoundCF-Medium.otf */; };
+		FA0A7005225E67EA005CCA45 /* VisbyRoundCF-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FE5225E67EA005CCA45 /* VisbyRoundCF-Heavy.otf */; };
+		FA0A7006225E67EA005CCA45 /* VisbyRoundCF-DemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FE6225E67EA005CCA45 /* VisbyRoundCF-DemiBold.otf */; };
+		FA0A7007225E67EA005CCA45 /* VisbyRoundCF-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FE7225E67EA005CCA45 /* VisbyRoundCF-Light.otf */; };
+		FA0A7008225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FE8225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.otf */; };
+		FA0A7009225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FE9225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.otf */; };
+		FA0A700A225E67EA005CCA45 /* VisbyRoundCF-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FEA225E67EA005CCA45 /* VisbyRoundCF-Regular.otf */; };
+		FA0A700B225E67EA005CCA45 /* VisbyRoundCF-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA0A6FEB225E67EA005CCA45 /* VisbyRoundCF-Bold.otf */; };
+		FA0A700D225E775A005CCA45 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A700C225E775A005CCA45 /* UserCell.swift */; };
+		FA0A700F225E77D8005CCA45 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A700E225E77D8005CCA45 /* Globals.swift */; };
+		FA0A7011225E7A2C005CCA45 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A7010225E7A2C005CCA45 /* User.swift */; };
+		FA3F721B225527A100C4741B /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F721A225527A100C4741B /* ApiClient.swift */; };
+		FA3F721D2259729100C4741B /* RequestLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F721C2259729100C4741B /* RequestLogger.swift */; };
+		FA3F721F22597A4A00C4741B /* UsersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F721E22597A4A00C4741B /* UsersListVC.swift */; };
+		FA3F72212259895500C4741B /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F72202259895500C4741B /* EndPoint.swift */; };
+		FA3F72232259899A00C4741B /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F72222259899A00C4741B /* HTTPMethod.swift */; };
+		FA3F7225225989ED00C4741B /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F7224225989ED00C4741B /* HTTPTask.swift */; };
+		FA3F7228225AD48900C4741B /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F7227225AD48900C4741B /* ParameterEncoding.swift */; };
+		FA40BB2422517BC400350333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA40BB2322517BC400350333 /* AppDelegate.swift */; };
+		FA40BB2622517BC400350333 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA40BB2522517BC400350333 /* LoginVC.swift */; };
+		FA40BB2922517BC400350333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA40BB2722517BC400350333 /* Main.storyboard */; };
+		FA40BB2B22517BC600350333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA40BB2A22517BC600350333 /* Assets.xcassets */; };
+		FA40BB2E22517BC600350333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA40BB2C22517BC600350333 /* LaunchScreen.storyboard */; };
+		FA79E9112265ACAA0040E773 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79E9102265ACAA0040E773 /* AuthManager.swift */; };
+		FA79E9132266B9710040E773 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79E9122266B9710040E773 /* AuthService.swift */; };
+		FA79E9152266BB990040E773 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79E9142266BB990040E773 /* UserService.swift */; };
+		FAACEB95226E64CD007B5303 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACEB94226E64CD007B5303 /* ChatVC.swift */; };
+		FAACEB9B226E6A54007B5303 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACEB9A226E6A54007B5303 /* ChatCell.swift */; };
+		FAACEB9D226E6D71007B5303 /* UIViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACEB9C226E6D71007B5303 /* UIViewControllerExtention.swift */; };
+		FAACEB9F226E6E40007B5303 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACEB9E226E6E40007B5303 /* Message.swift */; };
+		FAACEBA1226E732A007B5303 /* TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACEBA0226E732A007B5303 /* TextInputView.swift */; };
+		FAACEBA3226E7385007B5303 /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACEBA2226E7385007B5303 /* UIViewExtention.swift */; };
+		FAACEBA5226E9365007B5303 /* StringExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACEBA4226E9365007B5303 /* StringExtention.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA004397226E620C00398D06 /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		FA0A6FC5225E6759005CCA45 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		FA0A6FC7225E67A6005CCA45 /* UIColorExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtention.swift; sourceTree = "<group>"; };
+		FA0A6FCB225E67EA005CCA45 /* VisbyRoundCF-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Bold.woff2"; sourceTree = "<group>"; };
+		FA0A6FCC225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-ExtraBold.woff2"; sourceTree = "<group>"; };
+		FA0A6FCD225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-ExtraLight.woff2"; sourceTree = "<group>"; };
+		FA0A6FCE225E67EA005CCA45 /* VisbyRoundCF-Medium.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Medium.eot"; sourceTree = "<group>"; };
+		FA0A6FCF225E67EA005CCA45 /* VisbyRoundCF-Heavy.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Heavy.eot"; sourceTree = "<group>"; };
+		FA0A6FD0225E67EA005CCA45 /* VisbyRoundCF-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Regular.woff2"; sourceTree = "<group>"; };
+		FA0A6FD1225E67EA005CCA45 /* VisbyRoundCF-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Light.woff"; sourceTree = "<group>"; };
+		FA0A6FD2225E67EA005CCA45 /* VisbyRoundCF-Medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Medium.woff"; sourceTree = "<group>"; };
+		FA0A6FD3225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-ExtraLight.woff"; sourceTree = "<group>"; };
+		FA0A6FD4225E67EA005CCA45 /* VisbyRoundCF-Light.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Light.eot"; sourceTree = "<group>"; };
+		FA0A6FD5225E67EA005CCA45 /* VisbyRoundCF-Medium.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Medium.woff2"; sourceTree = "<group>"; };
+		FA0A6FD6225E67EA005CCA45 /* VisbyRoundCF-Heavy.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Heavy.woff2"; sourceTree = "<group>"; };
+		FA0A6FD7225E67EA005CCA45 /* VisbyRoundCF-DemiBold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-DemiBold.eot"; sourceTree = "<group>"; };
+		FA0A6FD8225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-ExtraBold.woff"; sourceTree = "<group>"; };
+		FA0A6FD9225E67EA005CCA45 /* VisbyRoundCF-Heavy.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Heavy.woff"; sourceTree = "<group>"; };
+		FA0A6FDA225E67EA005CCA45 /* VisbyRoundCF-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Regular.woff"; sourceTree = "<group>"; };
+		FA0A6FDB225E67EA005CCA45 /* VisbyRoundCF-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Regular.eot"; sourceTree = "<group>"; };
+		FA0A6FDC225E67EA005CCA45 /* VisbyRoundCF-DemiBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-DemiBold.woff2"; sourceTree = "<group>"; };
+		FA0A6FDD225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-ExtraLight.eot"; sourceTree = "<group>"; };
+		FA0A6FDE225E67EA005CCA45 /* VisbyRoundCF-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Bold.woff"; sourceTree = "<group>"; };
+		FA0A6FDF225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-ExtraBold.eot"; sourceTree = "<group>"; };
+		FA0A6FE0225E67EA005CCA45 /* VisbyRoundCF-DemiBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-DemiBold.woff"; sourceTree = "<group>"; };
+		FA0A6FE1225E67EA005CCA45 /* VisbyRoundCF-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Bold.eot"; sourceTree = "<group>"; };
+		FA0A6FE2225E67EA005CCA45 /* VisbyRoundCF-Light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Light.woff2"; sourceTree = "<group>"; };
+		FA0A6FE4225E67EA005CCA45 /* VisbyRoundCF-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Medium.otf"; sourceTree = "<group>"; };
+		FA0A6FE5225E67EA005CCA45 /* VisbyRoundCF-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Heavy.otf"; sourceTree = "<group>"; };
+		FA0A6FE6225E67EA005CCA45 /* VisbyRoundCF-DemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-DemiBold.otf"; sourceTree = "<group>"; };
+		FA0A6FE7225E67EA005CCA45 /* VisbyRoundCF-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Light.otf"; sourceTree = "<group>"; };
+		FA0A6FE8225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-ExtraBold.otf"; sourceTree = "<group>"; };
+		FA0A6FE9225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-ExtraLight.otf"; sourceTree = "<group>"; };
+		FA0A6FEA225E67EA005CCA45 /* VisbyRoundCF-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Regular.otf"; sourceTree = "<group>"; };
+		FA0A6FEB225E67EA005CCA45 /* VisbyRoundCF-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Bold.otf"; sourceTree = "<group>"; };
+		FA0A700C225E775A005CCA45 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		FA0A700E225E77D8005CCA45 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		FA0A7010225E7A2C005CCA45 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA3F721A225527A100C4741B /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiClient.swift; path = ../ApiClient.swift; sourceTree = "<group>"; };
+		FA3F721C2259729100C4741B /* RequestLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RequestLogger.swift; path = ../RequestLogger.swift; sourceTree = "<group>"; };
+		FA3F721E22597A4A00C4741B /* UsersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListVC.swift; sourceTree = "<group>"; };
+		FA3F72202259895500C4741B /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		FA3F72222259899A00C4741B /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = ../HTTPMethod.swift; sourceTree = "<group>"; };
+		FA3F7224225989ED00C4741B /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPTask.swift; path = ../HTTPTask.swift; sourceTree = "<group>"; };
+		FA3F7227225AD48900C4741B /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = ../ParameterEncoding.swift; sourceTree = "<group>"; };
+		FA40BB2022517BC400350333 /* ChatSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA40BB2322517BC400350333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA40BB2522517BC400350333 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FA40BB2822517BC400350333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA40BB2A22517BC600350333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA40BB2D22517BC600350333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA40BB2F22517BC600350333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA79E9102265ACAA0040E773 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		FA79E9122266B9710040E773 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		FA79E9142266BB990040E773 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		FAACEB94226E64CD007B5303 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		FAACEB9A226E6A54007B5303 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		FAACEB9C226E6D71007B5303 /* UIViewControllerExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtention.swift; sourceTree = "<group>"; };
+		FAACEB9E226E6E40007B5303 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FAACEBA0226E732A007B5303 /* TextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputView.swift; sourceTree = "<group>"; };
+		FAACEBA2226E7385007B5303 /* UIViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtention.swift; sourceTree = "<group>"; };
+		FAACEBA4226E9365007B5303 /* StringExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtention.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA40BB1D22517BC400350333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA00438F2267B16800398D06 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA0043922267B1F000398D06 /* Login */,
+				FA0043912267B1E100398D06 /* UserList */,
+				FA00439A226E647200398D06 /* Chat */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FA0043902267B1C100398D06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A7010225E7A2C005CCA45 /* User.swift */,
+				FAACEB9E226E6E40007B5303 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA0043912267B1E100398D06 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F721E22597A4A00C4741B /* UsersListVC.swift */,
+				FA0A700C225E775A005CCA45 /* UserCell.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		FA0043922267B1F000398D06 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA40BB2522517BC400350333 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA0043932267B20A00398D06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A6FC5225E6759005CCA45 /* CustomTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA0043942267B21900398D06 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A6FC7225E67A6005CCA45 /* UIColorExtention.swift */,
+				FA004397226E620C00398D06 /* UIView+Animation.swift */,
+				FAACEBA2226E7385007B5303 /* UIViewExtention.swift */,
+				FAACEB9C226E6D71007B5303 /* UIViewControllerExtention.swift */,
+				FAACEBA4226E9365007B5303 /* StringExtention.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		FA0043952267B24000398D06 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				FA0043962267B25100398D06 /* Font */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		FA0043962267B25100398D06 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A6FC9225E67EA005CCA45 /* Visby Round v1.7w */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		FA00439A226E647200398D06 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				FAACEB94226E64CD007B5303 /* ChatVC.swift */,
+				FAACEB9A226E6A54007B5303 /* ChatCell.swift */,
+				FAACEBA0226E732A007B5303 /* TextInputView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		FA0A6FC9225E67EA005CCA45 /* Visby Round v1.7w */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A6FCA225E67EA005CCA45 /* Webfont */,
+				FA0A6FE3225E67EA005CCA45 /* OTF */,
+			);
+			path = "Visby Round v1.7w";
+			sourceTree = "<group>";
+		};
+		FA0A6FCA225E67EA005CCA45 /* Webfont */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A6FCB225E67EA005CCA45 /* VisbyRoundCF-Bold.woff2 */,
+				FA0A6FCC225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.woff2 */,
+				FA0A6FCD225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.woff2 */,
+				FA0A6FCE225E67EA005CCA45 /* VisbyRoundCF-Medium.eot */,
+				FA0A6FCF225E67EA005CCA45 /* VisbyRoundCF-Heavy.eot */,
+				FA0A6FD0225E67EA005CCA45 /* VisbyRoundCF-Regular.woff2 */,
+				FA0A6FD1225E67EA005CCA45 /* VisbyRoundCF-Light.woff */,
+				FA0A6FD2225E67EA005CCA45 /* VisbyRoundCF-Medium.woff */,
+				FA0A6FD3225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.woff */,
+				FA0A6FD4225E67EA005CCA45 /* VisbyRoundCF-Light.eot */,
+				FA0A6FD5225E67EA005CCA45 /* VisbyRoundCF-Medium.woff2 */,
+				FA0A6FD6225E67EA005CCA45 /* VisbyRoundCF-Heavy.woff2 */,
+				FA0A6FD7225E67EA005CCA45 /* VisbyRoundCF-DemiBold.eot */,
+				FA0A6FD8225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.woff */,
+				FA0A6FD9225E67EA005CCA45 /* VisbyRoundCF-Heavy.woff */,
+				FA0A6FDA225E67EA005CCA45 /* VisbyRoundCF-Regular.woff */,
+				FA0A6FDB225E67EA005CCA45 /* VisbyRoundCF-Regular.eot */,
+				FA0A6FDC225E67EA005CCA45 /* VisbyRoundCF-DemiBold.woff2 */,
+				FA0A6FDD225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.eot */,
+				FA0A6FDE225E67EA005CCA45 /* VisbyRoundCF-Bold.woff */,
+				FA0A6FDF225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.eot */,
+				FA0A6FE0225E67EA005CCA45 /* VisbyRoundCF-DemiBold.woff */,
+				FA0A6FE1225E67EA005CCA45 /* VisbyRoundCF-Bold.eot */,
+				FA0A6FE2225E67EA005CCA45 /* VisbyRoundCF-Light.woff2 */,
+			);
+			path = Webfont;
+			sourceTree = "<group>";
+		};
+		FA0A6FE3225E67EA005CCA45 /* OTF */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A6FE4225E67EA005CCA45 /* VisbyRoundCF-Medium.otf */,
+				FA0A6FE5225E67EA005CCA45 /* VisbyRoundCF-Heavy.otf */,
+				FA0A6FE6225E67EA005CCA45 /* VisbyRoundCF-DemiBold.otf */,
+				FA0A6FE7225E67EA005CCA45 /* VisbyRoundCF-Light.otf */,
+				FA0A6FE8225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.otf */,
+				FA0A6FE9225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.otf */,
+				FA0A6FEA225E67EA005CCA45 /* VisbyRoundCF-Regular.otf */,
+				FA0A6FEB225E67EA005CCA45 /* VisbyRoundCF-Bold.otf */,
+			);
+			path = OTF;
+			sourceTree = "<group>";
+		};
+		FA40BB1722517BC400350333 = {
+			isa = PBXGroup;
+			children = (
+				FA40BB2222517BC400350333 /* ChatSocket */,
+				FA40BB2122517BC400350333 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA40BB2122517BC400350333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA40BB2022517BC400350333 /* ChatSocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA40BB2222517BC400350333 /* ChatSocket */ = {
+			isa = PBXGroup;
+			children = (
+				FA40BB2322517BC400350333 /* AppDelegate.swift */,
+				FA0A700E225E77D8005CCA45 /* Globals.swift */,
+				FA40BB3522517C3E00350333 /* Networking */,
+				FA00438F2267B16800398D06 /* View Controllers */,
+				FA0043902267B1C100398D06 /* Models */,
+				FA0043932267B20A00398D06 /* Views */,
+				FA0043942267B21900398D06 /* Extentions */,
+				FA0043952267B24000398D06 /* Ressources */,
+				FA40BB2722517BC400350333 /* Main.storyboard */,
+				FA40BB2A22517BC600350333 /* Assets.xcassets */,
+				FA40BB2C22517BC600350333 /* LaunchScreen.storyboard */,
+				FA40BB2F22517BC600350333 /* Info.plist */,
+			);
+			path = ChatSocket;
+			sourceTree = "<group>";
+		};
+		FA40BB3522517C3E00350333 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FA79E91622679DA20040E773 /* Network Layer */,
+				FA79E9102265ACAA0040E773 /* AuthManager.swift */,
+				FA3F72202259895500C4741B /* EndPoint.swift */,
+				FA79E9142266BB990040E773 /* UserService.swift */,
+				FA79E9122266B9710040E773 /* AuthService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FA79E91622679DA20040E773 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F721A225527A100C4741B /* ApiClient.swift */,
+				FA3F7227225AD48900C4741B /* ParameterEncoding.swift */,
+				FA3F72222259899A00C4741B /* HTTPMethod.swift */,
+				FA3F7224225989ED00C4741B /* HTTPTask.swift */,
+				FA3F721C2259729100C4741B /* RequestLogger.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA40BB1F22517BC400350333 /* ChatSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA40BB3222517BC600350333 /* Build configuration list for PBXNativeTarget "ChatSocket" */;
+			buildPhases = (
+				FA40BB1C22517BC400350333 /* Sources */,
+				FA40BB1D22517BC400350333 /* Frameworks */,
+				FA40BB1E22517BC400350333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatSocket;
+			productName = Login;
+			productReference = FA40BB2022517BC400350333 /* ChatSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA40BB1822517BC400350333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alex Manukyan";
+				TargetAttributes = {
+					FA40BB1F22517BC400350333 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = FA40BB1B22517BC400350333 /* Build configuration list for PBXProject "ChatSocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA40BB1722517BC400350333;
+			productRefGroup = FA40BB2122517BC400350333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA40BB1F22517BC400350333 /* ChatSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA40BB1E22517BC400350333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A700B225E67EA005CCA45 /* VisbyRoundCF-Bold.otf in Resources */,
+				FA0A700A225E67EA005CCA45 /* VisbyRoundCF-Regular.otf in Resources */,
+				FA0A6FFD225E67EA005CCA45 /* VisbyRoundCF-DemiBold.woff2 in Resources */,
+				FA0A7008225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.otf in Resources */,
+				FA0A7005225E67EA005CCA45 /* VisbyRoundCF-Heavy.otf in Resources */,
+				FA0A7007225E67EA005CCA45 /* VisbyRoundCF-Light.otf in Resources */,
+				FA0A6FEE225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.woff2 in Resources */,
+				FA40BB2E22517BC600350333 /* LaunchScreen.storyboard in Resources */,
+				FA0A6FFB225E67EA005CCA45 /* VisbyRoundCF-Regular.woff in Resources */,
+				FA0A6FFF225E67EA005CCA45 /* VisbyRoundCF-Bold.woff in Resources */,
+				FA0A6FF2225E67EA005CCA45 /* VisbyRoundCF-Light.woff in Resources */,
+				FA0A7004225E67EA005CCA45 /* VisbyRoundCF-Medium.otf in Resources */,
+				FA0A6FFA225E67EA005CCA45 /* VisbyRoundCF-Heavy.woff in Resources */,
+				FA0A6FF4225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.woff in Resources */,
+				FA0A7000225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.eot in Resources */,
+				FA0A7006225E67EA005CCA45 /* VisbyRoundCF-DemiBold.otf in Resources */,
+				FA0A6FF9225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.woff in Resources */,
+				FA0A7009225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.otf in Resources */,
+				FA0A6FEC225E67EA005CCA45 /* VisbyRoundCF-Bold.woff2 in Resources */,
+				FA0A6FEF225E67EA005CCA45 /* VisbyRoundCF-Medium.eot in Resources */,
+				FA0A6FF0225E67EA005CCA45 /* VisbyRoundCF-Heavy.eot in Resources */,
+				FA0A6FF7225E67EA005CCA45 /* VisbyRoundCF-Heavy.woff2 in Resources */,
+				FA0A6FF6225E67EA005CCA45 /* VisbyRoundCF-Medium.woff2 in Resources */,
+				FA0A7001225E67EA005CCA45 /* VisbyRoundCF-DemiBold.woff in Resources */,
+				FA0A6FED225E67EA005CCA45 /* VisbyRoundCF-ExtraBold.woff2 in Resources */,
+				FA0A6FF8225E67EA005CCA45 /* VisbyRoundCF-DemiBold.eot in Resources */,
+				FA40BB2B22517BC600350333 /* Assets.xcassets in Resources */,
+				FA0A6FF1225E67EA005CCA45 /* VisbyRoundCF-Regular.woff2 in Resources */,
+				FA40BB2922517BC400350333 /* Main.storyboard in Resources */,
+				FA0A7003225E67EA005CCA45 /* VisbyRoundCF-Light.woff2 in Resources */,
+				FA0A7002225E67EA005CCA45 /* VisbyRoundCF-Bold.eot in Resources */,
+				FA0A6FFE225E67EA005CCA45 /* VisbyRoundCF-ExtraLight.eot in Resources */,
+				FA0A6FF3225E67EA005CCA45 /* VisbyRoundCF-Medium.woff in Resources */,
+				FA0A6FF5225E67EA005CCA45 /* VisbyRoundCF-Light.eot in Resources */,
+				FA0A6FFC225E67EA005CCA45 /* VisbyRoundCF-Regular.eot in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA40BB1C22517BC400350333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3F7228225AD48900C4741B /* ParameterEncoding.swift in Sources */,
+				FA3F72212259895500C4741B /* EndPoint.swift in Sources */,
+				FAACEB95226E64CD007B5303 /* ChatVC.swift in Sources */,
+				FA3F721F22597A4A00C4741B /* UsersListVC.swift in Sources */,
+				FA3F72232259899A00C4741B /* HTTPMethod.swift in Sources */,
+				FA0A6FC6225E6759005CCA45 /* CustomTextField.swift in Sources */,
+				FA40BB2622517BC400350333 /* LoginVC.swift in Sources */,
+				FA79E9152266BB990040E773 /* UserService.swift in Sources */,
+				FA0A7011225E7A2C005CCA45 /* User.swift in Sources */,
+				FAACEBA1226E732A007B5303 /* TextInputView.swift in Sources */,
+				FA0A700F225E77D8005CCA45 /* Globals.swift in Sources */,
+				FA79E9112265ACAA0040E773 /* AuthManager.swift in Sources */,
+				FAACEB9D226E6D71007B5303 /* UIViewControllerExtention.swift in Sources */,
+				FAACEB9B226E6A54007B5303 /* ChatCell.swift in Sources */,
+				FA3F7225225989ED00C4741B /* HTTPTask.swift in Sources */,
+				FAACEBA3226E7385007B5303 /* UIViewExtention.swift in Sources */,
+				FA004398226E620C00398D06 /* UIView+Animation.swift in Sources */,
+				FA40BB2422517BC400350333 /* AppDelegate.swift in Sources */,
+				FAACEB9F226E6E40007B5303 /* Message.swift in Sources */,
+				FA0A700D225E775A005CCA45 /* UserCell.swift in Sources */,
+				FA0A6FC8225E67A6005CCA45 /* UIColorExtention.swift in Sources */,
+				FA3F721B225527A100C4741B /* ApiClient.swift in Sources */,
+				FAACEBA5226E9365007B5303 /* StringExtention.swift in Sources */,
+				FA3F721D2259729100C4741B /* RequestLogger.swift in Sources */,
+				FA79E9132266B9710040E773 /* AuthService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA40BB2722517BC400350333 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA40BB2822517BC400350333 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA40BB2C22517BC600350333 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA40BB2D22517BC600350333 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA40BB3022517BC600350333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA40BB3122517BC600350333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA40BB3322517BC600350333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG37W2ARUD;
+				INFOPLIST_FILE = "$(SRCROOT)/ChatSocket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexmanukyan.ChatSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA40BB3422517BC600350333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG37W2ARUD;
+				INFOPLIST_FILE = "$(SRCROOT)/ChatSocket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexmanukyan.ChatSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA40BB1B22517BC400350333 /* Build configuration list for PBXProject "ChatSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA40BB3022517BC600350333 /* Debug */,
+				FA40BB3122517BC600350333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA40BB3222517BC600350333 /* Build configuration list for PBXNativeTarget "ChatSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA40BB3322517BC600350333 /* Debug */,
+				FA40BB3422517BC600350333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA40BB1822517BC400350333 /* Project object */;
+}
