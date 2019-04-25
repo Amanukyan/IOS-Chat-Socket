@@ -12,27 +12,7 @@ import UIKit
 class Globals {
     
     //static let baseUrl = "http://192.168.1.17:5000"
-    static let baseUrl = "http://192.168.25.66:5000"
-    
-    static var isActive = false
-    
-    struct UserDefaults {
-        static let isLoggedIn = "isUserLoggedIn" // Bool
-        static let userToken = "UserToken" // String
-        static let userId = "UserID" // String
-        static let userFirstName = "UserFirstName" // String
-        static let userLastName = "UserLastName" // String
-        static let userPhoto = "UserPhoto" // [String]
-        static let userDescription = "userDescription" // String
-        static let lastLongitude = "lastLongitude" // String
-        static let lastLatitude = "lastLatitude" // String
-        
-        static let deviceToken = "DeviceToken" // String
-        
-        static let crushlist = "Crushlist" // [String]
-    }
-    
-    
+    static let baseUrl = "http://192.168.50.198:3000"
     
     static let infiniteScrollTriggerOffsetCellsCount = 5
     

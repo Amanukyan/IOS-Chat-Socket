@@ -24,6 +24,7 @@ class UserListVC: UIViewController {
         self.navigationItem.rightBarButtonItem = logoutButton
         self.title = "Users"
         
+        
         UserService.getUser { [weak self] (result) in
             switch result {
             case .success(let users):

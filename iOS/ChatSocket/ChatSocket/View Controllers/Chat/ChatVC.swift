@@ -30,26 +30,25 @@ class ChatVC: UIViewController {
         
         self.title = roomName
         
+        
+        SocketIOManager.shared.listenToNewMessage { (result) in
+            switch result {
+            case .success(let message):
+                message.text = "\(message.text!) [Remote]"
+                self.addMessage(message: message)
+            case .failure(let error):
+                print("Error:", error)
+            }
+        }
+        
+        
         NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardNotification(notification:)), name: UIResponder.keyboardWillChangeFrameNotification,object: nil)
-        
-        for i in 0...10 {
-            let m = Message()
-            m.text = "hello \(i)"
-            messages.append(m)
-        }
-        
-        for i in 0...10 {
-            let m = Message()
-            m.text = "hellofhjdsh 1 fjdkhfkdjhgkjdfhgvberkdjhgkjdfhgvberbvfhjbvfhjd 2 bvsdfhjbvsfhjkdjhgkjdfhgvberbv 3 fhjbvfhjdbvsdfhjbvsf  4 hjkdjhgkjdfhgvberbvfhjbvfhjdbvs 5 dfhjbvsfhjkdjhgkjdfhgvberbvfhjbvf 6 hjdbvsdfhjbvsfhjkdjhgkj 7 dfhgvberbvfhjbvfhjdbvsdfhjbvsfhjbvfhjbvfhjd 8 bvsdfhjbvsfhjdbvshdfjbvshjdfbvshjdf fin \(i)"
-            messages.append(m)
-        }
         
         prepareView()
     }
 
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        print("view.safeAreaInsets.bottom=", view.safeAreaInsets.bottom)
         
         // TODO
         if #available(iOS 11.0, *) {
@@ -87,7 +86,6 @@ extension ChatVC {
         
         // Text Input View
         
-        print("view.safeAreaInsets.bottom=", view.safeAreaInsets.bottom)
         let textInputViewOriginY = view.frame.height - textInputViewHeigh
         textInputView = TextInputView(frame: CGRect(x: 0, y: textInputViewOriginY , width: view.frame.width, height: textInputViewHeigh))
         textInputView.textInputDelegate = self
@@ -95,7 +93,6 @@ extension ChatVC {
     }
     
     @objc func collectionViewTapped(){
-        print("[collectionViewTapped] textInputView.frame.origin.y=", self.textInputView.frame.origin.y)
         textInputView.textField.resignFirstResponder()
     }
     
@@ -106,12 +103,25 @@ extension ChatVC {
 }
 
 extension ChatVC{
-    func sendMessage(text: String){
-        let message = Message()
-        message.text = text
+    
+    
+    func addMessage(message: Message){
         messages.append(message)
         collectionView.reloadData()
-        collectionView.scrollToItem(at: IndexPath(item: messages.count, section: 0), at: .bottom, animated: true)
+        collectionView.scrollToItem(at: IndexPath(item: self.messages.count - 1, section: 0), at: .bottom, animated: true)
+
+    }
+    
+    func sendMessage(text: String){
+        print("sendMessage: ", text)
+        
+        let message = Message()
+        message.text = text
+        message.username = title
+        message.channelID = title
+        message.userId = title
+        SocketIOManager.shared.sendMessage(message: message)
+        addMessage(message: message)
     }
 }
 
@@ -152,6 +162,7 @@ extension ChatVC: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellID, for: indexPath) as! ChatCell
         let message = messages[indexPath.row]
         cell.configure(message: message)
@@ -191,7 +202,6 @@ extension ChatVC: UICollectionViewDelegateFlowLayout {
 // MARK:  KEYBOARD
 extension ChatVC{
     @objc func keyboardNotification(notification: NSNotification) {
-        print("[keyboardNotification] textInputView.frame.origin.y=", self.textInputView.frame.origin.y)
         if let userInfo = notification.userInfo {
             let endFrame = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue
             let endFrameY = endFrame?.origin.y ?? 0
@@ -201,10 +211,15 @@ extension ChatVC{
             let animationCurve:UIView.AnimationOptions = UIView.AnimationOptions(rawValue: animationCurveRaw)
             if endFrameY >= UIScreen.main.bounds.size.height {
                 self.textInputView.frame.origin.y = self.view.frame.height - self.textInputView.frame.height - bottomPadding
-                self.collectionView.frame.origin.y = self.topbarHeight
+                
+                self.collectionView.contentInset = self.cvContentInset
+            
             } else {
                 self.textInputView.frame.origin.y = self.view.frame.height - self.textInputView.frame.height - (endFrame?.size.height)!
-                self.collectionView.frame.origin.y = self.topbarHeight - (endFrame?.size.height)! + bottomPadding
+                
+                var inset = self.cvContentInset
+                inset.bottom += (endFrame?.size.height)!
+                self.collectionView.contentInset = inset
             }
             
             UIView.animate(withDuration: duration,

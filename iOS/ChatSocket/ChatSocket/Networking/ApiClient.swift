@@ -31,7 +31,7 @@ class ApiClient {
                 print("ERROR:", error.localizedDescription)
                 completion(.failure(error))
             }
-            }.resume()
+        }.resume()
     }
     
     

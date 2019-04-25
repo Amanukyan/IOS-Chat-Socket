@@ -10,13 +10,105 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatSocket/View Controllers/Chat/ChatVC.swift"
-            timestampString = "577680631.961006"
+            timestampString = "577844796.9355921"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
             endingLineNumber = "20"
             landmarkName = "ChatVC"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatSocket.ChatVC.messages.getter : Swift.Array&lt;ChatSocket.Message&gt;"
+                  moduleName = "ChatSocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/IOS-Chat-Socket/iOS/ChatSocket/ChatSocket/View%20Controllers/Chat/ChatVC.swift"
+                  timestampString = "577841418.4065239"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatSocket.ChatVC.messages.setter : Swift.Array&lt;ChatSocket.Message&gt;"
+                  moduleName = "ChatSocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/IOS-Chat-Socket/iOS/ChatSocket/ChatSocket/View%20Controllers/Chat/ChatVC.swift"
+                  timestampString = "577841418.410255"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatSocket.ChatVC.messages.modify : Swift.Array&lt;ChatSocket.Message&gt;"
+                  moduleName = "ChatSocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/IOS-Chat-Socket/iOS/ChatSocket/ChatSocket/View%20Controllers/Chat/ChatVC.swift"
+                  timestampString = "577841418.413149"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatSocket.ChatVC.messages.modify : Swift.Array&lt;ChatSocket.Message&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ChatSocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/IOS-Chat-Socket/iOS/ChatSocket/ChatSocket/View%20Controllers/Chat/ChatVC.swift"
+                  timestampString = "577841418.416225"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatSocket.ChatVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ChatSocket.ChatVC"
+                  moduleName = "ChatSocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/IOS-Chat-Socket/iOS/ChatSocket/ChatSocket/View%20Controllers/Chat/ChatVC.swift"
+                  timestampString = "577841418.419028"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatSocket.ChatVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ChatSocket.ChatVC&gt;"
+                  moduleName = "ChatSocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Desktop/IOS-Chat-Socket/iOS/ChatSocket/ChatSocket/View%20Controllers/Chat/ChatVC.swift"
+                  timestampString = "577841418.422083"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "448">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

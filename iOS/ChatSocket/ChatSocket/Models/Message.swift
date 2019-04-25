@@ -9,8 +9,10 @@
 import Foundation
 
 
-class Message: Decodable {
+class Message: Codable {
     
     var text: String?
     var username: String?
+    var channelID: String?
+    var userId: String?
 }
